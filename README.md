@@ -1,8 +1,12 @@
-# React + Vite
+# Marvel y Dc Comics App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta aplicación te permite explorar y descubrir información sobre tus héroes favoritos de Marvel y DC Comics. Al abrir la app, verás una lista completa de todos los héroes disponibles, y luego podrás filtrarlos para ver solo los de Marvel o solo los de DC. La información se extrae de un archivo llamado heroes.js en la carpeta data.
 
-Currently, two official plugins are available:
+## Funcionalidades
+####  Lista de Héroes: La pantalla de inicio muestra todos los héroes disponibles, tanto de Marvel como de DC Comics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Filtrado por Editoriales: Puedes seleccionar entre ver solo los héroes de Marvel o solo los de DC Comics para facilitar tu búsqueda.
+
+#### Información Detallada: Al seleccionar un héroe, se muestra información detallada como su nombre, alias, habilidades, historia de origen, y más
+
+#### Archivo de Datos: Toda la información de los héroes se obtiene del archivo heroes.js que se encuentra en la carpeta data.
